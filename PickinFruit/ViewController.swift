@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UIPickerViewDelegate, UIPickerView, UIPickerViewDataSource {
+    
+    
     @IBOutlet weak var spinButton: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
     
@@ -22,7 +23,22 @@ class ViewController: UIViewController {
         
     }
     
+    func fruitpickerString (string: String) {
+        
+        
+       
+    }
+    
+    func pickerView(_ pickerView: UIPickerView,
+                      numberOfRowsInComponent component: Int) -> Int {
+        
+    }
+    
+
+    
     @IBAction func spinButtonTapped(sender: UIButton) {
+        
+     
         
         
     }
