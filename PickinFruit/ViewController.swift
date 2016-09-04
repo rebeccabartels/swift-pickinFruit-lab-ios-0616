@@ -38,13 +38,6 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
        
     }
     
-    func pickerView(_ pickerView: UIPickerView,
-                      numberOfRowsInComponent component: Int) -> Int {
-        
-        return 1
-        
-    }
-    
 
     
     @IBAction func spinButtonTapped(sender: UIButton) {
@@ -86,6 +79,7 @@ extension ViewController {
     
     // The number of rows of data
     func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+
         return pickerData.count
     }
     
