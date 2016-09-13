@@ -6,6 +6,9 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     @IBOutlet weak var fruitPicker: UIPickerView!
     @IBOutlet weak var spinButton: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
+    
+    
+    
 
     
     var fruitsArray = ["🍎", "🍊", "🍌", "🍐", "🍇", "🍉", "🍓", "🍒", "🍍"]
@@ -15,6 +18,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
         
         self.fruitPicker.accessibilityLabel = Constants.FRUIT_PICKER
         self.fruitPicker.accessibilityLabel = Constants.FRUIT_PICKER
@@ -84,7 +89,19 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
 }
 
 extension ViewController: UIPickerViewAccessibilityDelegate {
+    
+//    var accessibilityLabel: String?
+    
     func pickerView(pickerView: UIPickerView, accessibilityLabelForComponent component: Int) -> String? {
+        var accessibilityLabel: UILabel
+        var unwrappedLabel = UILabel()
+      
+        
+        
+        if let accessibilityLabel !== nil {
+            
+            unwrappedLabel = accessibilityLabel
+        }
         
         switch component {
         case 0:

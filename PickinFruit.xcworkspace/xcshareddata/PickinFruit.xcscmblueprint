@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F933698B80FAF1BCA216F2E3AD508EA602281E86",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F933698B80FAF1BCA216F2E3AD508EA602281E86" : 0,
+    "6FAA54788D3B12A700DBFC6494FD3C3EA9B5D4B7" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D96A5BD7-6FBF-4EE0-8455-05628FB9FC67",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F933698B80FAF1BCA216F2E3AD508EA602281E86" : "swift-pickinFruit-lab-ios-0616\/",
+    "6FAA54788D3B12A700DBFC6494FD3C3EA9B5D4B7" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PickinFruit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PickinFruit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/rebeccabartels\/pinkin-fruit",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FAA54788D3B12A700DBFC6494FD3C3EA9B5D4B7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rebeccabartels\/swift-pickinFruit-lab-ios-0616.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F933698B80FAF1BCA216F2E3AD508EA602281E86"
+    }
+  ]
+}
